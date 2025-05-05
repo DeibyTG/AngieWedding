@@ -398,7 +398,7 @@ main .main_contacto{
         grid-area:contenido-formulario;
         display: flex;
         width:  20%;
-        height: 500px;
+        height: 1fr;
         margin: 0 auto ; 
         align-items: center;
         padding: 10px;
@@ -414,9 +414,9 @@ main .main_contacto{
         text-align: center;
         align-items: center;
         width: 500px;
-        height: 500px;
+        height: 1fr;
         
-        
+      
     }
 
     .informacion-contacto label{
@@ -425,6 +425,10 @@ main .main_contacto{
         
     }
 
+    .info_extra{
+        width: 400px;
+        height: 100px;
+    }
 
 /*fin del css para el main de contacto  */
 
