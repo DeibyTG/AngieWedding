@@ -200,10 +200,13 @@ nav{
         border-radius: 30px;
         padding: 0px 45px;
         text-align: center;
-        color:rgb(32, 23, 23);
-        
+        color:rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.795);
+        font-size: 25px;  
     }
     
+
+
     .servicio_boda img{
         width: 550px;
         height: 400px;
@@ -229,6 +232,9 @@ nav{
             text-align: center;
             color:rgb(32, 23, 23);
             margin-left: 950px;
+            background: rgba(211, 136, 148, 0.267);
+            font-size: 25px;
+            
             
         }
     
