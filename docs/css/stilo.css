@@ -271,14 +271,15 @@ nav{
 
         .main_index aside ul li a{
             width: 150px;
-            display: inline-block;
+            display:flex;
+            flex-direction:row;
             justify-content: center;
             border: 1px solid black;
-            padding-bottom: 10px;
+            padding-bottom: 5px;
             border-radius: 30px;
             text-align: center;
-            color: rgba(69, 69, 97, 0.836);
-            background-color: rgb(201, 152, 176);
+            color: black;
+            background-color: rgba(201, 152, 176, 0.425);
             text-decoration: none;
             
         }
@@ -287,11 +288,10 @@ nav{
             background-color: rgb(109, 184, 219);
             color: black;
         }
-        
+    
         .fechas_disponibles{
-            font-size: 17px;
-            padding-bottom: 10px;
-            
+            font-size: 25px;
+            padding-bottom: 10px;   
         }
 
 /* Fin del css para el main de index------------------------------------------------------- */

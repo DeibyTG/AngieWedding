@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
         <h1>Angie´s Wedding Planner</h1>
             <h2 class="info_empresa"> Planea la boda de tus sueños</h2>
         <div class="logotipo" id="foto_logo">
-            <img alt="foto_logotipo_empresa"   src="../img/foto_logo.jpg" /> 
+            <img alt="foto_logotipo_empresa"   src="../img/foto_logo.jpg"> 
         </div>
         <div class="foto_wedding">
             <img alt="foto_De_wedding" src="../img/foto_wedding_planner.jpg">
@@ -65,16 +65,16 @@
                 <form class="informacion-contacto">
                     
                     <label> Nombre</label>
-                    <input type="text" placeholder="" autofocus> 
+                    <input type="text" placeholder="" autofocus required> 
                     
                     <label>Apellido</label>
                     <input type="text">
         
                     <label> Correo Electrónico</label>
-                    <input type="email" maxlength="50">
+                    <input type="email" maxlength="50" required>
                     
                     <label>Telefono</label>
-                    <input type="tel" maxlength="9" pattern="[0-9]{9}">
+                    <input type="tel" maxlength="9" pattern="[0-9]{9}" required>
 
                     <label>Disponibilidad contacto</label>
                     
@@ -91,7 +91,7 @@
                         <option>2026</option>
                     </select>
                     
-                    <label>¿y en que mes?</label>
+                    <label>¿Tienes una fecha exacta en mente?</label>
                     <input type="date">
 
                     <label>Añade Información que creas que sera util</label>
@@ -99,14 +99,14 @@
 
 
                     <label>
-                    <a href="">Teminos y condiciones </a>
+                    <a href="">¿Aceptas la politica de privacidad de la empresa? </a>
                     </label>
                     <input type="checkbox" required >
 
                     
                     
                     
-                    <input type="submit" placeholder="enviar">
+                    <input type="submit">
                 </form>
             </article>
 
