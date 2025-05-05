@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pag_Inicio</title>
+    <link rel="stylesheet" href="/css/stilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+            <!-- ahora voy a colocar el header , algo sencillo un H1 y sub para lo que es
+            el nombre de la empresa y una descripción rapida , añadimos un logo que damos tamaño con CSS ,
+            aunque si que es verdad que el logo esta generado por IA-->
+    <header>
+        <h1>Angie´s Wedding Planner</h1>
+            <h2 class="info_empresa"> Planea la boda de tus sueños</h2>
+        <div class="logotipo" id="foto_logo">
+            <img alt="foto_logotipo_empresa"   src="/img/foto_logo.jpg" />
+        </div>
+        <div class="foto_wedding">
+            <img alt="foto_De_wedding" src="/img/foto_wedding_planner.jpg">
+        </div>
+    </header>
+            <!-- vamos a crear una pequeña barra de navegación para las distintas pestañas del proyecto -->
+    
+    <nav class="barra_navegacion">  
+        <ul>
+
+            <li class="">
+                <a class="inicio" href="/index.html" >Inicio</a>
+            </li>
+            <li>
+                <a class="servicios" href="/view/servicios.html">Servicios</a>
+            </li>
+            <li class="ubicacion_contacto">
+                <a class="contacto" href="/view/contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a class="cita" href="/view/tienda.html">Vestidos</a>
+            </li>
+        
+        </ul>
+    
+    </nav>
+
+    <main class="main_contacto">
+        <section class="contacto">
+            <h3> Presupuesto sin compromiso!!!!!</h3>
+
+            <br>
+            
+            <h4>Puedes enviarnos tu información rellenando el siguiente formulario</h4>
+            
+        </section>
+
+        <article class="formulario_contacto">
+                <form class="informacion-contacto">
+                    
+                    <label> Nombre</label>
+                    <input type="text" placeholder="" autofocus> 
+                    
+                    <label>Apellido</label>
+                    <input type="text">
+        
+                    <label> Correo Electrónico</label>
+                    <input type="email" maxlength="50">
+                    
+                    <label>Telefono</label>
+                    <input type="tel" maxlength="9" pattern="[0-9]{9}">
+
+                    <label>Disponibilidad contacto</label>
+                    
+                    <select>
+                    <option>Por las mañanas</option>
+                    <option>Medio dia</option>
+                    <option>Tardes</option>
+                    <option>Tarde/Noches</option>
+                    </select>
+
+                    <label>¿En que año quieres celebrar la boda?</label>
+                    <select>
+                        <option>2025</option>
+                        <option>2026</option>
+                    </select>
+                    
+                    <label>¿y en que mes?</label>
+                    <input type="date">
+
+
+                    <label>
+                    <a href="">Teminos y condiciones </a>
+                    </label>
+                    <input type="checkbox" required >
+
+                    
+                    
+                    
+                    <input type="submit" placeholder="enviar">
+                </form>
+            </article>
+    </main>        
+    
+            
+    
+    
+
+    <footer>
+    
+        <table>
+            <thead class="encabezado_footer">
+
+                
+                <tr>
+                    <td>Angie´s Wedding</td>
+                    <td>Contacto</td>
+                    <td>Redes Sociales</td>
+                    <td>Enlaces Útiles</td>
+                    <td>Newsletter</td>
+                    <td>Aviso Legal</td>
+                    <td>Diseño Web</td>
+                </tr>
+
+            </thead>
+            <tbody class="cuerpo_footer">
+                <tr>
+                    <td></td>
+                    <td>Telf:658045981</td>
+                    <td>Instagram:Angie´sWedding</td>
+                    <td>Servicios</td>
+                    <td>Formulario Suscripción</td>
+                    <td></td>
+                    <td>Deiby Torres</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>Fax:654897516</td>
+                    <td>Facebook: Angie´sWedding</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </footer>
+
+</body>
+</html>
