@@ -4,7 +4,7 @@
 
 html{
     min-height: 100vh;
-    height: 1fr;
+    /* height: 1fr; */
     margin: 0;
     margin-right: 15px;
     padding: 0;
@@ -175,7 +175,7 @@ nav{
     grid-area: my-main;
     padding: 15px;
     display: grid;
-    grid-template-columns:  1rf;
+    grid-template-columns:  1fr;
     grid-template-rows: auto auto 1fr;
     grid-template-areas:
         "my-article"
@@ -390,7 +390,7 @@ main .main_contacto{
         display: flex;
         text-align: center;
         height: auto;
-        width: 1fr;
+        /* width: 1fr; */
         font-size: 30px;
     }
 
@@ -398,7 +398,6 @@ main .main_contacto{
         grid-area:contenido-formulario;
         display: flex;
         width:  20%;
-        height: 1fr;
         margin: 0 auto ; 
         align-items: center;
         padding: 10px;
@@ -414,9 +413,6 @@ main .main_contacto{
         text-align: center;
         align-items: center;
         width: 500px;
-        height: 1fr;
-        
-      
     }
 
     .informacion-contacto label{
@@ -447,7 +443,7 @@ main .main_contacto{
 /* Ahora va el main de la pagina de tienda ----------------------------------------------*/
 
 .main_tienda{
-    height: 1rf;
+    /* height: 1rf; */
 }
 
     .nueva_temporada{
@@ -466,7 +462,6 @@ main .main_contacto{
     .main_tienda img{
         border: 1px solid black;
         border-radius: 30px;
-        width: 1fr;
         height: 495px;
         
     }
@@ -541,6 +536,16 @@ main .main_contacto{
         transition: all 250ms;
         }
 
+
+/*fin del css para el main de tienda  */
+
+/* inicio del css para el aviso legal */
+
+.aviso_legal{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+}
 
 /*fin del css para el main de tienda  */
 
