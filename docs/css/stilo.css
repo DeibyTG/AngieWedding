@@ -120,7 +120,7 @@ nav{
         flex-direction: row;
         justify-content: space-around;
         margin-left: 25px;
-        height: 70px;
+        height: 60px;
         
     }
 
@@ -129,7 +129,7 @@ nav{
     nav ul li{
         padding: 20px;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 15px;
         text-transform:capitalize;
         text-decoration: none;
         list-style: none;
@@ -449,13 +449,13 @@ main .main_contacto{
     .main_tienda img{
         border: 1px solid black;
         border-radius: 30px;
-        height: 600px;
-        width: 450px;
+        height: 500px;
+        width: 400px;
         
     }
 
     .main_tienda li :hover{
-        height: 610px;
+        height: 510px;
         transition: 1s;
         
     }
