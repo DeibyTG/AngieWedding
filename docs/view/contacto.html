@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Servicios_angies_wedding</title>
     <link rel="stylesheet" href="../css/stilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,10 +23,10 @@
         <h1>Angie´s Wedding Planner</h1>
             <h2 class="info_empresa"> Planea la boda de tus sueños</h2>
         <div class="logotipo" id="foto_logo">
-            <img alt="foto_logotipo_empresa"   src="../img/foto_logo.jpg"> 
+            <img alt="foto_logotipo_empresa"   src="../img/foto_logo.jpg"  width="150px" height="150px"> 
         </div>
         <div class="foto_wedding">
-            <img alt="foto_De_wedding" src="../img/foto_wedding_planner.jpg">
+            <img alt="foto_De_wedding" src="../img/foto_wedding_planner.jpg" width="612px" height="389px" >
         </div>
     </header>
             <!-- vamos a crear una pequeña barra de navegación para las distintas pestañas del proyecto -->
@@ -65,10 +65,10 @@
                 <form class="informacion-contacto">
                     
                     <label> Nombre</label>
-                    <input type="text" placeholder="" autofocus required pattern=""> 
+                    <input type="text" placeholder="" autofocus required pattern="[A-Za-z]+"> 
                     
                     <label>Apellido</label>
-                    <input type="text">
+                    <input type="text" pattern="[A-Za-z]+">
         
                     <label> Correo Electrónico</label>
                     <input type="email" maxlength="50" required>
@@ -114,53 +114,57 @@
 
                 <h4>¿Donde estamos?</h4>
 
-                <img alt="foto de mapa metro" src="../img/opera-location_orig.jpg" class="metro_opera">
+                <img alt="foto de mapa metro" src="../img/opera-location_orig.jpg" class="metro_opera" width="710px" height="545px">
 
 
 
             </aside>
     </main>        
     
-<footer>     
-    <table>
-        <thead class="encabezado_footer">
-
-            
-            <tr>
-                <td>Angie´s Wedding</td>
-                <td>Contacto</td>
-                <td>Redes Sociales</td>
-                <td>Enlaces Útiles</td>
-                <td>Newsletter</td>
-                <td>Aviso Legal</td>
-                <td>Diseño Web</td>
-            </tr>
-
-        </thead>
-        <tbody class="cuerpo_footer">
-            <tr>
-                <td>C/Inventada Nº5</td>
-                <td>Telf:658045981</td>
-                <td>
-                    <img alt="icono Instagram" src="../img/logotipo-de-instagram.png" class="icono_footer">
-                    <a href="https://www.instagram.com/">Instagram:Angie´sWedding</a>
-                </td>
-                <td>Servicios</td>
-                <td>Formulario Suscripción</td>
-                <td><a rel="aviso legal" href="aviso_legal.html" target="_blank">Pagina del aviso legal</a></td>
-                <td>Deiby Torres</td>
-            </tr>
-
-            <tr>
-                <td>España/Madrid</td>
-                <td>Fax:654897516</td>
-                <td>
-                    <img alt="icono Facebook" src="../img/facebook.png" class="icono_footer">
-                    <a href="https://www.facebook.com/?locale=es_ES">Facebook: Angie´sWedding</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <footer>
+    
+        <div class="info_footer">
+            <div class="footer1">
+                <ul>
+                    <li>Angie´s Wedding</li>  
+                    <li>C/Inventada Nº5</li>
+                    <li>España/Madrid</li>
+                </ul>
+            </div>
+    
+            <div class="footer2">
+                <ul>
+                    <li>Contacto</li>
+                    <li>Telf:658045981</li>
+                    <li>Fax:654897516</li>  
+                </ul>
+            </div>
+    
+            <div class="footer3">
+                <ul>
+                    <li>Redes Sociales</li>
+                    <li><img alt="icono Instagram" src="../img/logotipo-de-instagram.png" class="icono_footer" width="512px" height="512px">
+                        <a href="https://www.instagram.com/">Instagram:Angie´sWedding</a></li>
+                    <li><img alt="icono Facebook" src="../img/facebook.png" class="icono_footer" width="256px" height="256px">
+                        <a href="https://www.facebook.com/?locale=es_ES">Facebook: Angie´sWedding</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer4">
+                <ul>
+                    <li>Aviso Legal</li>
+                    <li><a rel="aviso legal" href="aviso_legal.html" target="_blank">Pagina del aviso legal</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer5">
+                <ul>
+                    <li>Diseño Web</li>
+                    <li>Deiby Torres</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </footer>
 
